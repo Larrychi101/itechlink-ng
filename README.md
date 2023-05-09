@@ -1,49 +1,32 @@
-# Next.js + ButterCMS Starter Project
-Live Demo: https://nextjs-starter-buttercms.vercel.app/
+**Description**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FButterCMS%2Fnextjs-starter-buttercms&env=NEXT_PUBLIC_BUTTER_CMS_API_KEY&envDescription=Your%20ButterCMS%20API%20Token&envLink=https%3A%2F%2Fbuttercms.com%2Fsettings%2F&project-name=nextjs-starter-buttercms&repo-name=nextjs-starter-buttercms&redirect-url=https%3A%2F%2Fbuttercms.com%2Fonboarding%2Fvercel-starter-deploy-callback%2F&production-deploy-hook=Deploy%20Triggered%20from%20ButterCMS&demo-title=ButterCMS%20Next.js%20Starter&demo-description=Fully%20integrated%20with%20your%20ButterCMS%20account&demo-url=https%3A%2F%2Fnextjs-starter-buttercms.vercel.app%2F&demo-image=https://cdn.buttercms.com/r0tGK8xFRti2iRKBJ0eY&repository-name=nextjs-starter-buttercms)
+The itechlink agency is dedicated to providing comprehensive ICT solutions to its clients. With a wide range of services, including training and certification programs, job placements, and acting as a software vendor for top cloud companies, itechlink is committed to delivering high-quality solutions to its clients. In addition, the agency provides access to experienced professionals and industry experts who can deliver high-quality training and guidance to clients.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ButterCMS/nextjs-starter-buttercms&env%5BNEXT_PUBLIC_BUTTER_CMS_API_KEY%5D=check%20https://buttercms.com/settings)
+**Value Proposition**
 
-This Next.js starter project fully integrates with dynamic sample content from your ButterCMS account, including main menu, pages, blog posts, categories, and tags, all with a beautiful, custom theme with already-implemented search functionality. All of the included sample content is automatically created in your account dashboard when you sign up for a free trial of ButterCMS.
+Comprehensive ICT Solutions: itechlink offers a wide range of services to meet the unique needs of its clients. These include training and certification programs, job placements, and acting as a software vendor for top cloud companies.
+Industry Expertise: The agency provides access to experienced professionals and industry experts who can deliver high-quality training and guidance to clients.
+Market Connectivity: itechlink connects clients with relevant job opportunities and establishes partnerships with top cloud companies to offer cutting-edge software solutions.
+Local Expertise: Leveraging its deep understanding of the Lagos market, itechlink provides tailored solutions that meet the unique needs of local clients.
 
-A copy of this starter project can be easily and quickly deployed to Vercel or Heroku with the click of a button.
-## 1) Installation
+**Getting Started**
 
-First, install the dependencies by cloning the repo and running one of the following commands, depending on your current setup:
-```bash
-git clone https://github.com/ButterCMS/nextjs-starter-buttercms.git
-cd nextjs-starter-buttercms
-npm install # or yarn install
-```
+To get started with the iTechLink website, you'll need to have Node.js and npm (Node Package Manager) installed on your machine. You can download the latest version of Node.js from the official website at https://nodejs.org. Once you have Node.js installed, follow these steps to run the iTechLink website:
 
-## 2) Set API Token
+Clone the repository to your local machine using the command git clone https://github.com/your-username/itechlink.git. Navigate to the project directory using the command cd itechlink. Install the project dependencies using the command npm install. Start the server using the command npm start. The iTechLink website should now be running on your local machine at http://localhost:3000.
 
-To fetch your ButterCMS content, add your API token as an environment variable.
+**License**
 
-```bash
-$ echo 'NEXT_PUBLIC_BUTTER_CMS_API_KEY=<Your API Token>' >> .env
-```
+This project is licensed under the MIT License - see the **LICENSE.md** file for details.
 
-## 3) Run the local server
+**Contributing**
 
-To view the app in a browser, you'll need to run the local development server:
+We welcome contributions to the iTechLink website from the open source community. If you would like to contribute to the project, please follow these steps:
 
-```bash
-npm run dev # or yarn dev
-```
+Fork the repository to your GitHub account. Clone the forked repository to your local machine using the command git clone https://github.com/your-username/itechlink.git. Create a new branch for your changes using the command git checkout -b my-branch-name. Make your changes to the code and commit them using the command git commit -m "My commit message". Push the changes to your forked repository using the command git push origin my-branch-name. Create a pull request on the original repository and wait for feedback from the project maintainers. License
 
-Congratulations! Your starter project is now live: [http://localhost:3000](http://localhost:3000).
+The iTechLink website is released under the APACHE License. See LICENSE file for more details.
 
-## 4) Deploy
+**Contact us**
 
-Deploy your Butterized proof of concept app and spread your love of Butter, to either 
-Vercel, the creators of Next.js, or to Heroku. With the click of a button, you'll create a copy of our starter project in your Git provider account, instantly deploy it, and institute a full content workflow connected to your ButterCMS account. Smooth.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FButterCMS%2Fnextjs-starter-buttercms&env=NEXT_PUBLIC_BUTTER_CMS_API_KEY&envDescription=Your%20ButterCMS%20API%20Token&envLink=https%3A%2F%2Fbuttercms.com%2Fsettings%2F&project-name=nextjs-starter-buttercms&repo-name=nextjs-starter-buttercms&redirect-url=https%3A%2F%2Fbuttercms.com%2Fonboarding%2Fvercel-starter-deploy-callback%2F&production-deploy-hook=Deploy%20Triggered%20from%20ButterCMS&demo-title=ButterCMS%20Next.js%20Starter&demo-description=Fully%20integrated%20with%20your%20ButterCMS%20account&demo-url=https%3A%2F%2Fnextjs-starter-buttercms.vercel.app%2F&demo-image=https://cdn.buttercms.com/r0tGK8xFRti2iRKBJ0eY&repository-name=nextjs-starter-buttercms)
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ButterCMS/nextjs-starter-buttercms&env%5BNEXT_PUBLIC_BUTTER_CMS_API_KEY%5D=check%20https://buttercms.com/settings)
-
-## 5) Previewing
-
-Your starter project is automatically configured to show draft changes saved in your Butter account when run locally or deployed to a hosting provider. To disable this behavior, set the following value in your .env file: PREVIEW=false.
+If you have any questions or comments about the iTechLink website, please contact us at info@itechlink.com.
