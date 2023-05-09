@@ -13,11 +13,11 @@ export default function FooterSection({ mainMenu }) {
                     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-10">
                         <div className="footer-widget">
                             <div className="logo">
-                                <a href="https://buttercms.com">
+                                <a href="https://itechlink-ng.vercel.app">
                                     <Image
                                         width={200}
                                         height={50}
-                                        src="https://cdn.buttercms.com/PBral0NQGmmFzV0uG7Q6"
+                                        src="https://media.licdn.com/dms/image/C4D0BAQE3bSIR2xml1Q/company-logo_100_100/0/1538650090663?e=1691625600&v=beta&t=EqSmnG8sV0xDiMG1xK4975qg3JlS_ulJl4SfIBexrHc"
                                         alt="logo"
                                         style={{
                                             maxWidth: "100%",
@@ -25,7 +25,7 @@ export default function FooterSection({ mainMenu }) {
                                         }} />
                                 </a>
                             </div>
-                            <p className="desc">ButterCMS is your content backend. Build better with Butter.</p>
+                            <p className="desc">Techlink NG | Comprehensive ICT Solutions for Your Business Needs.</p>
                             <ul className="social-links">
                                 <li><a href="#0"><i className="lni lni-facebook"></i></a></li>
                                 <li><a href="#0"><i className="lni lni-linkedin"></i></a></li>
