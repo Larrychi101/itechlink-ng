@@ -17,7 +17,7 @@ export default function FooterSection({ mainMenu }) {
                                     <Image
                                         width={200}
                                         height={50}
-                                        src="https://media.licdn.com/dms/image/C4D0BAQE3bSIR2xml1Q/company-logo_100_100/0/1538650090663?e=1691625600&v=beta&t=EqSmnG8sV0xDiMG1xK4975qg3JlS_ulJl4SfIBexrHc"
+                                        src="https://pub-56b462e72b3449e5b7390aecd39e35b2.r2.dev/E6887D31-A5E1-49EF-8ACF-B164718C8EF7.jpg"
                                         alt="logo"
                                         style={{
                                             maxWidth: "100%",
