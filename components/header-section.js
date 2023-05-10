@@ -29,9 +29,9 @@ export default function HeaderSection({ mainMenu }) {
                     <div className="row align-items-center">
                         <div className="col-lg-12">
                             <nav className="navbar navbar-expand-lg">
-                                <a className="navbar-brand" href="https://buttercms.com">
+                                <a className="navbar-brand" href="https://itechlink-ng.vercel.app">
                                     <Image
-                                        src="https://cdn.buttercms.com/PBral0NQGmmFzV0uG7Q6"
+                                        src="https://pub-56b462e72b3449e5b7390aecd39e35b2.r2.dev/E6887D31-A5E1-49EF-8ACF-B164718C8EF7.jpg"
                                         alt="Logo"
                                         width={180}
                                         height={45}
