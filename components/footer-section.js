@@ -25,7 +25,7 @@ export default function FooterSection({ mainMenu }) {
                                         }} />
                                 </a>
                             </div>
-                            <p className="desc">Techlink NG | Comprehensive ICT Solutions for Your Business Needs.</p>
+                            <p className="desc">iTechlink NG | Comprehensive ICT Solutions for Your Business Needs.</p>
                             <ul className="social-links">
                                 <li><a href="#0"><i className="lni lni-facebook"></i></a></li>
                                 <li><a href="#0"><i className="lni lni-linkedin"></i></a></li>
