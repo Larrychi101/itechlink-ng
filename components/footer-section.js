@@ -15,7 +15,7 @@ export default function FooterSection({ mainMenu }) {
                             <div className="logo">
                                 <a href="https://itechlink-ng.vercel.app">
                                     <Image
-                                        width={50}
+                                        width={100}
                                         height={10}
                                         src="https://cdn.buttercms.com/X1fRSkS2RP2PAcWwoIZv"
                                         alt="logo"

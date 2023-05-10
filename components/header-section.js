@@ -33,7 +33,7 @@ export default function HeaderSection({ mainMenu }) {
                                     <Image
                                         src="https://cdn.buttercms.com/X1fRSkS2RP2PAcWwoIZv"
                                         alt="Logo"
-                                        width={50}
+                                        width={100}
                                         height={10}
                                         style={{
                                             maxWidth: "100%",
