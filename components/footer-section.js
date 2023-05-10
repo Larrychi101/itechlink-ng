@@ -17,7 +17,7 @@ export default function FooterSection({ mainMenu }) {
                                     <Image
                                         width={500}
                                         height={10}
-                                        src="https://pub-56b462e72b3449e5b7390aecd39e35b2.r2.dev/E6887D31-A5E1-49EF-8ACF-B164718C8EF7 2.jpg"
+                                        src="https://cdn.buttercms.com/X1fRSkS2RP2PAcWwoIZv"
                                         alt="logo"
                                         style={{
                                             maxWidth: "100%",
