@@ -59,7 +59,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const butterToken = process.env.fcc80765fb80be6353b0b0220cdb51f48b4bf74e
+  const butterToken = process.env.NEXT_PUBLIC_BUTTER_CMS_API_KEY
 
   if (butterToken) {
     try {
