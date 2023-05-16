@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'itechlink'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2839DED621F8400085E78CB85683ACC2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22DCBC70E7CF42EB9A5A860E17A0017D }}
           package: .
