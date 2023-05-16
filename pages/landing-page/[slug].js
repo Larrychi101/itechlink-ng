@@ -63,10 +63,14 @@ export async function getStaticPaths() {
 
   if (butterToken) {
     try {
-      const landingPages = await getLandingPages();
+      const landingPages = await getLandingPages(); // Fetch the landing pages data
+
+      const paths = landingPages.map((page) => ({
+        params: { slug: page.slug },
+      }));
 
       return {
-        paths: landingPages.map((page) => `/landing-page/${page.slug}`),
+        paths: paths,
         fallback: true,
       };
     } catch (e) {
@@ -75,7 +79,7 @@ export async function getStaticPaths() {
 
     return {
       paths: [],
-      fallback: true,
+      fallback: false,
     };
   }
 }
