@@ -31,7 +31,7 @@ export default function HeaderSection({ mainMenu }) {
                             <nav className="navbar navbar-expand-lg">
                                 <a className="navbar-brand" href="https://itechlink-ng.vercel.app">
                                     <Image
-                                        src="https://cdn.buttercms.com/X1fRSkS2RP2PAcWwoIZv"
+                                        src="https://cdn.buttercms.com/V16AtjjBTKWKxb4p4lzo"
                                         alt="Logo"
                                         width={100}
                                         height={10}
